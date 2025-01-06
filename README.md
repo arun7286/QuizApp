@@ -60,6 +60,15 @@ To run the quiz app locally, follow these steps:
 - The "Next" button is disabled until the user selects an option. 🚫
 - The app calculates the score and displays it at the end of the quiz. 📈
 
+## Demo 🎥
+You can view a demo snaps of the quiz app here
+![image](https://github.com/user-attachments/assets/ca1b0826-16c0-457b-94ca-cf6fa822051d)
+![image](https://github.com/user-attachments/assets/938520f0-9b0b-47e2-900e-f852278c83b6)
+![image](https://github.com/user-attachments/assets/e1d1042c-f954-4119-96aa-f77021570137)
+
+
+
+
 ## Contribution 🤝
 
 Feel free to fork the repository and contribute to the project by submitting pull requests. If you'd like to report an issue, please open an issue on the GitHub repository page. 💡
