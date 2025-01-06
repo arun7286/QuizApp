@@ -1,0 +1,146 @@
+body {
+    background-color: #A59D84;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the score page */
+.scorePage {
+    text-align: center;
+    background-color: #C1BAA1;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 100px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Container for the quiz section */
+.quiz {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #C1BAA1;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Style for each list item (quiz options) */
+.quiz ul {
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    max-width: 400px; /* Matches the width of the 'Next' button */
+}
+
+.quiz ul li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #A59D84;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust padding to match the button's size */
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    width: 100%;
+    max-width: 400px; /* Matches the width of the 'Next' button */
+    box-sizing: border-box;
+}
+
+/* Style for selected quiz options */
+.quiz ul li.selected {
+    border: 1px solid black;
+}
+
+/* Button styling */
+.quiz button {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    background-color: #857963;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.quiz button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* New styling for the "Next" button */
+.next-button {
+    padding: 8px 15px; /* Smaller padding */
+    width: auto; /* Allow it to shrink to its content */
+    max-width: none; /* Disable max width */
+    margin-left: auto; /* Push to the right */
+    margin-top: 20px; /* Add some space from the other elements */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For small devices (e.g., smartphones) */
+@media (max-width: 600px) {
+    .quiz {
+        width: 90%; /* Adjust the quiz container width for small screens */
+    }
+
+    .quiz ul li {
+        width: 100%; /* Make quiz options fill the width of the container */
+        padding: 8px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .quiz button {
+        width: 100%; /* Make button fill the width of the container */
+        max-width: 100%; /* Ensure the button doesn't overflow */
+        padding: 12px; /* Adjust button padding */
+    }
+
+    .scorePage {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+}
+
+/* For medium-sized devices (e.g., tablets) */
+@media (max-width: 768px) {
+    .quiz {
+        width: 80%; /* Adjust width for tablets */
+    }
+
+    .quiz ul li {
+        width: 100%; /* Make quiz options fill the width of the container */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .quiz button {
+        width: 100%; /* Make button fill the width of the container */
+    }
+
+    .scorePage {
+        padding: 30px; /* Slightly smaller padding for tablets */
+    }
+}
+
+/* For larger screens (e.g., desktops) */
+@media (min-width: 1024px) {
+    .quiz {
+        width: 60%; /* Adjust width for larger screens */
+    }
+
+    .quiz ul li {
+        width: 100%; /* Make quiz options fill the width of the container */
+        font-size: 16px; /* Larger font size for larger screens */
+    }
+
+    .quiz button {
+        width: 100%; /* Button width 100% */
+    }
+}
